@@ -1,0 +1,18 @@
+.logo{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: block;
+    position: relative;
+    opacity: 10px;
+}
+.logo:hover{
+    transform:  translateX(0) scale(1)
+}
+.covi{
+    margin-left: 200px;
+    z-index: -1;
+}
+.covi h2{
+    color: red;
+    font-size: medium;
+}
