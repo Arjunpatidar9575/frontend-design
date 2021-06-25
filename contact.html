@@ -3,13 +3,22 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+body {font-family: Arial, Helvetica, sans-serif;
+  height: 100%vh;
+  width: 100%;
+  background-image: url("IMAGE/istockphoto-1129113667-612x612.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+* {box-sizing: border-box;
+}
 
 input[type=text], select, textarea {
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -18,8 +27,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
+  background-color:transparent;
+  color:transparent;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -32,39 +41,43 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color:transparent;
   padding: 20px;
+
 }
 </style>
 </head>
 <body>
+<center>
 
-<h3>GET IN TOUCH WITH US</h3>
+
 
 <div class="container">
+  <h3>GET IN TOUCH WITH US</h3>
   <form action="/action_page.php">
-  <label for="fname">First Name</label>
+  <label for="fname">First Name</label> 
   <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">State</label>
-    <select id="country" name="country">
+  <br>
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <br>
+  <label for="country">State&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <select id="country" name="country">
       <option value="australia">Madhya Pradesh</option>
       <option value="canada">Delhi</option>
       <option value="usa">Maharashtra</option>
-    <option value="canada">West Bengal</option>
+      <option value="canada">West Bengal</option>
       <option value="usa">Uttar pradesh</option>
 	
 	</select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <br>
+    <label for="subject">&nbsp;&nbsp;&nbsp;&nbsp;Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px "></textarea>
 
     <input type="submit" value="Submit">
   </form>
 </div>
+</center>
 
 </body>
 </html>
