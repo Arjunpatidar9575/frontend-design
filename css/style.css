@@ -129,12 +129,12 @@ section .btntwo{
 	font-family: serif;
 }
 @keyframes  changetext{
-	0%{content: "INDORE"}
-        12%{content: "BHOPAL"}
-	24%{content: "JABALPUR"}
-	36%{content: "BURHANPUR"}
-	48%{content: "UJJAIN"}
-	60%{content: "RATLAM"}
-	72%{content: "RAJGARH"}
-	84%{content: "ALIRAJPUR"}
-	100%{content: "GWALIOR"}
+	0%{content: "MADHYA PRADESH"}
+        12%{content: "GUJARAT"}
+	24%{content: "DELHI"}
+	36%{content: "MAHARASHTRA"}
+	48%{content: "WEST BENGAL"}
+	60%{content: "UTTAR PRADESH"}
+	72%{content: "NAGALAND"}
+	84%{content: "JAMMU"}
+	100%{content: "DAMAN"}
